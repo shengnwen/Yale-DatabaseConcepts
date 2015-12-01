@@ -19,8 +19,8 @@ def wegmansSingleItemCrawler(link):
     # name
     name = soup.h1
     print "1.Name: " + name.text
-    price = soup(class_ ="mrkAfltwd20new")[0].text
-    print "2.Price" + price
+    # price = soup(class_ ="mrkAfltwd20new")[0].text
+    # print "2.Price" + price
     # unitPrice = soup(class_ = re.compile("^unit-price-display"))[0].text
     # print "3.unit price" + unitPrice
     # img_src = soup(class_ = "product-image js-product-image js-product-primary-image")[0]['src']
